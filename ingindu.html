@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>María Fernanda | Ingeniería Ambiental</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+    body {
+      font-family: 'Poppins', sans-serif;
+      background-color: #f0f4f8;
+      color: #2c3e50;
+      line-height: 1.6;
+    }
+    header {
+      background: linear-gradient(135deg, #5b247a, #1bcedf);
+      color: white;
+      padding: 3em 1em;
+      text-align: center;
+    }
+    header h1 {
+      font-size: 2.5em;
+      margin-bottom: 0.2em;
+    }
+    header p {
+      font-size: 1.2em;
+    }
+    nav {
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      background-color: #fff;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+    }
+    nav a {
+      padding: 1em;
+      text-decoration: none;
+      color: #5b247a;
+      font-weight: 500;
+    }
+    nav a:hover {
+      background-color: #f3e8ff;
+    }
+    .container {
+      max-width: 1200px;
+      margin: 3em auto;
+      padding: 0 2em;
+    }
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+      gap: 2em;
+    }
+    .card {
+      background-color: white;
+      border-radius: 10px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+      padding: 1.5em;
+      transition: transform 0.3s ease;
+    }
+    .card:hover {
+      transform: translateY(-5px);
+    }
+    h2 {
+      color: #5b247a;
+      margin-bottom: 0.5em;
+    }
+    a.external {
+      color: #2980b9;
+      text-decoration: none;
+    }
+    a.external:hover {
+      text-decoration: underline;
+    }
+    .social-icons a {
+      margin-right: 15px;
+      font-size: 1.4em;
+      color: #5b247a;
+      text-decoration: none;
+    }
+    .social-icons a:hover {
+      color: #1bcedf;
+    }
+    footer {
+      background: #5b247a;
+      color: white;
+      text-align: center;
+      padding: 2em 1em;
+      margin-top: 4em;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Gery Avril Chambi Choque</h1>
+    <p>Estudiante de Ingeniería Industrial | <a href="https://ucsp.edu.pe" target="_blank" style="color: white; text-decoration: underline;">Universidad Católica San Pablo</a></p>
+  </header>
+  <nav>
+    <a href="#sobre-mi">Sobre mí</a>
+    <a href="#materias">Materias</a>
+    <a href="#companeros">Compañeros</a>
+    <a href="#contacto">Contacto</a>
+  </nav>
+  <main class="container">
+    <section id="sobre-mi" class="card">
+      <h2>Sobre mí</h2>
+      <p>Hola, soy Gery Avril Chambi Choque, estudiante de Ingeniería Industrial. Me apasiona la optimización de procesos, la mejora continua y la gestión eficiente de recursos. Me considero una persona organizada, analítica y con facilidad para el trabajo en equipo. Me motiva encontrar soluciones prácticas y sostenibles que aporten valor tanto a las empresas como a la sociedad.</p>
+
+      <p>Durante mi etapa escolar, estuve enfocada en reforzar mi formación académica, y fue en ese proceso donde descubrí mi gusto por las matemáticas, la física y la lógica, lo que me llevó a elegir esta carrera con gran convicción.</p>
+
+      <p>Actualmente curso el segundo semestre de la carrera, donde vengo adquiriendo conocimientos en áreas como Química, Física y matemáticas aplicadas. Me interesa especialmente el uso de herramientas tecnológicas como AutoCAD, simuladores virtuales y software de análisis de datos básicos, que complementan mi formación técnica en esta etapa inicial.</p>
+
+      <p>Fuera del ámbito académico, disfruto de la lectura, escuchar música, practicar deporte (especialmente caminatas y ciclismo) y aprender nuevas habilidades, como edición digital, entre otras.</p> 
+
+      <p>Estoy comprometida con seguir aprendiendo y creciendo tanto a nivel profesional como personal, buscando siempre un equilibrio entre la excelencia académica y el bienestar integral.</p>
+
+
+    </section>
+
+    <div class="grid" style="margin-top: 3em;">
+      <section id="materias" class="card">
+  <h2 style="color: #5b247a; font-size: 1.6em; margin-bottom: 1em;">Materias del semestre</h2>
+  <ol style="list-style-position: inside; padding-left: 1em;">
+    <li>Física I</li>
+    <li>Química II</li>
+    <li>Matemática II</li>
+    <li>Cálculo I</li>
+    <li>Fundamentos de informática</li>
+  </ol>
+</section>
+
+      <section id="contacto" class="card">
+        <h2>Contacto</h2>
+        <p>Email: gery.chambi@ucsp.edu.pe</p>
+        <div class="social-icons">
+          <a href="https://instagram.com/maria.fernanda" target="_blank" title="Instagram"><i class="fab fa-instagram"></i></a>
+          <a href="https://wa.me/1234567890" target="_blank" title="WhatsApp"><i class="fab fa-whatsapp"></i></a>
+          <a href="https://www.linkedin.com/in/geryavrilchambichoque" target="_blank" title="LinkedIn"><i class="fab fa-linkedin"></i></a>
+        </div>
+      </section>
+    </div>
+
+    <section id="companeros" class="card" style="margin-top: 3em;">
+      <h2>Compañeros</h2>
+      <div class="grid">
+        <div class="card">
+          <h3>Andrea López</h3>
+          <p>Diseño Gráfico</p>
+          <p><a href="https://andrea-lopez.com" target="_blank" class="external">Sitio web personal</a></p>
+          <div class="social-icons">
+            <a href="https://instagram.com/andrea.lopez" target="_blank"><i class="fab fa-instagram"></i></a>
+            <a href="https://wa.me/987654321" target="_blank"><i class="fab fa-whatsapp"></i></a>
+            <a href="https://www.linkedin.com/in/andrealopez" target="_blank"><i class="fab fa-linkedin"></i></a>
+          </div>
+        </div>
+        <div class="card">
+          <h3>Carlos Ramírez</h3>
+          <p>Ingeniería Civil</p>
+          <p><a href="https://carlos-ramirez.com" target="_blank" class="external">Sitio web personal</a></p>
+          <div class="social-icons">
+            <a href="https://instagram.com/carlos.ramirez" target="_blank"><i class="fab fa-instagram"></i></a>
+            <a href="https://wa.me/456123789" target="_blank"><i class="fab fa-whatsapp"></i></a>
+            <a href="https://www.linkedin.com/in/carlosramirez" target="_blank"><i class="fab fa-linkedin"></i></a>
+          </div>
+        </div>
+        <div class="card">
+          <h3>Lucía Torres</h3>
+          <p>Biología</p>
+          <p><a href="https://lucia-torres.com" target="_blank" class="external">Sitio web personal</a></p>
+          <div class="social-icons">
+            <a href="https://instagram.com/lucia.torres" target="_blank"><i class="fab fa-instagram"></i></a>
+            <a href="https://wa.me/321654987" target="_blank"><i class="fab fa-whatsapp"></i></a>
+            <a href="https://www.linkedin.com/in/luciatorres" target="_blank"><i class="fab fa-linkedin"></i></a>
+          </div>
+        </div>
+        <div class="card">
+          <h3>Diego Salazar</h3>
+          <p>Arquitectura</p>
+          <p><a href="https://diego-salazar.com" target="_blank" class="external">Sitio web personal</a></p>
+          <div class="social-icons">
+            <a href="https://instagram.com/diego.salazar" target="_blank"><i class="fab fa-instagram"></i></a>
+            <a href="https://wa.me/1122334455" target="_blank"><i class="fab fa-whatsapp"></i></a>
+            <a href="https://www.linkedin.com/in/diegosalazar" target="_blank"><i class="fab fa-linkedin"></i></a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </main>
+  <footer>
+    <p>&copy; 2025 Gery Avril Chambi Choque | Ingeniería Industrial | <a href="https://ucsp.edu.pe" target="_blank" style="color: white; text-decoration: underline;">Universidad Católica San Pablo</a></p>
+  </footer>
+</body>
+</html>
